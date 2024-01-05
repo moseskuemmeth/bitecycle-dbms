@@ -4,7 +4,9 @@ function About() {
   return (
     <div>
       <center>
-        <h1>About us page</h1>
+        <h1>
+          <u>ABOUT US PAGE</u>
+        </h1>
       </center>
       <p className="para">
         Bitecycle: About Us Fighting Food Waste, One Pedal at a Time Bitecycle
