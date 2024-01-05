@@ -1,0 +1,15 @@
+/* respective changes to be bought to about.css */
+
+body {
+  background-color: #0c3b2e;
+  font-family: "Caveat", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.para {
+  color: white;
+}
+h1 {
+  color: white;
+}
