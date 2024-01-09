@@ -1,11 +1,12 @@
 import React from "react";
 import "./About.css";
+import "./App.css";
 function About() {
   return (
     <div>
       <center>
         <h1>
-          <u>ABOUT US PAGE</u>
+          <u>ABOUT US</u>
         </h1>
       </center>
       <p className="para">
