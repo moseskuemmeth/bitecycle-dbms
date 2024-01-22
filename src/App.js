@@ -1,18 +1,30 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./pages/About";
-import Home from "./pages/Home";
-import Faq from "./pages/Faq";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Faq from "./pages/Faq";
+
 function App() {
   return (
     <Router>
+      <div className="App">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/faq" element={<Faq />} />
-      </Routes>
+        <div className="content">
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route path='/about'>
+              <About />
+            </Route>
+            <Route path='/faq'>
+              <Faq />
+            </Route>
+          </Switch>
+        </div>
+
+      </div>
     </Router>
   );
 }

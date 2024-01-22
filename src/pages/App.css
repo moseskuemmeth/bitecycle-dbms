@@ -1,7 +1,7 @@
 /* respective changes to be bought to about.css */
 
 body {
-  background-color: #0c3b2e;
+  background-color: #e5ebe5;
   font-family: "Caveat", cursive;
   font-family: "Libre Baskerville", serif;
   font-family: "Montserrat", sans-serif;
@@ -10,8 +10,8 @@ body {
 .para {
   color: white;
   padding: 10px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 h1 {
-  color: white;
+  color: #52853a;
 }

@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
+
 function Faq() {
   return (
-    <div>
+    <div className="faq">
       <center>
-        <h1>
-          <u>FAQ</u>
-        </h1>
+        <h1>FAQ</h1>
       </center>
     </div>
   );
